@@ -15,20 +15,20 @@ REGEXP_1 = '^a.'
 # + acb
 # - ab
 # - aabc
-REGEXP_2 = ''
+REGEXP_2 = '[abc]{3}'
 
 # + sofia.mp3
 # + sofia.mp4
 # - sofia.mp7
 # - sofia.mp34
-REGEXP_3 = ''
+REGEXP_3 = 'sofia.mp[0-5]'
 
 # + taverna
 # + versus
 # + vera
 # + zveri
 # - zver
-REGEXP_4 = ''
+REGEXP_4 = '[a-z]+ver[a-z]+'
 
 # - a
 # - aa
@@ -39,7 +39,7 @@ REGEXP_4 = ''
 # + bbb
 # - bbbb
 # - ccc
-REGEXP_5 = ''
+REGEXP_5 = '[a,b]{3}'
 
 # - Ok
 # - OkOk
@@ -49,7 +49,7 @@ REGEXP_5 = ''
 # - abab
 # + ababab
 # - abababab
-REGEXP_6 = ''
+REGEXP_6 = '[0k, ab]{3}'
 
 # - aaa
 # - aaa aaa
@@ -58,7 +58,7 @@ REGEXP_6 = ''
 # + Aaa aaa aaa
 # - A
 # - aaa A aaa
-REGEXP_7 = ''
+REGEXP_7 = '[aaa,Aaa] {3}'
 
 # + abc
 # + abc03
