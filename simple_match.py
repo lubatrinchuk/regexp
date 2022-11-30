@@ -8,7 +8,7 @@
 # + ab
 # - b
 # - ba
-REGEXP_1 = ''
+REGEXP_1 = '^a.'
 
 # + aab
 # + abb
